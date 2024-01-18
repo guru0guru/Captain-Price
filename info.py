@@ -11,10 +11,10 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
+SESSION = environ.get('SESSION','Media_search')
+API_ID = int(environ['API_ID','8148352')
+API_HASH = environ['API_HASH','d21054dcf4237a447f7aa713e6731e31']
+BOT_TOKEN = environ['BOT_TOKEN','6556731385:AAFJ_xYEotOhGVhwjxmCQNk49765zgboYP8']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -30,8 +30,8 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(admin) for admin in environ.get("AUTH_GROUPS", "").split()]
 TUTORIAL = "t.me/MainlandGroup_CC"
 # MongoDB information
-DATABASE_URI = environ['DATABASE_URI']
-DATABASE_NAME = environ['DATABASE_NAME']
+DATABASE_URI = environ['DATABASE_URI'mongodb+srv://Goat08:<guruvignesh77.>@cluster0.91pjs07.mongodb.net/?retryWrites=true&w=majority']
+DATABASE_NAME = environ['DATABASE_NAME'PROJECT0']
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
@@ -48,10 +48,10 @@ default_start_cap = """
 <b>🧲 File Size</b> : {file_size}
 <b>
  ┏━━━━•❅•°•❈•°•❅•━━━━┓
- ✰👑    𝗖𝝠𝝦𝝩𝝠𝝞𝝥 𝝦𝗥𝝞𝗖𝝽    👑✰
+ ✰👑    GOAT MOVIES    👑✰
  ┗━━━━•❅•°•❈•°•❅•━━━━┛
 🥷Proudly Presented By🎭 </b>
-@AnonymousBotsInfinity
+@GoatMovie07
 """
 
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
